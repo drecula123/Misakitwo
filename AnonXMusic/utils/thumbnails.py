@@ -10,7 +10,7 @@ def load_fonts():
     try:
         return {
             "cfont": ImageFont.truetype("AnonXMusic/utils/cfont.ttf", 24),
-            "tfont": ImageFont.truetype("AnonXMusic/utils/font.ttf", 30),
+            "tfont": ImageFont.truetype("AnonXMusic/assets/font.ttf", 30),
         }
     except Exception as e:
         LOGGER.error("Font loading error: %s, using default fonts", e)
